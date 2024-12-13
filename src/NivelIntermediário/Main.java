@@ -23,11 +23,10 @@ public class Main {
         Tsunade.Idade = 39;
         Tsunade.Aldeia = "Aldeia da Folha";
 
-
-
-        Tsunade.detalhesNinjas();
-        Sasuke.detalhesNinjas();
+        String chamandoMetodo = Tsunade.euSouumNinja();
+        System.out.println(chamandoMetodo);
         Sasuke.SharinganAtivado();
-
+      int quantoTempoFalta=  Sasuke.anosParaSeTornarHokage(50);
+        System.out.println("Você tem " +Sasuke.Idade + " então falta no mínimo " + quantoTempoFalta + " anos para voce se tornar hokage");
     }
 }

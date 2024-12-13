@@ -10,7 +10,11 @@ public class Ninja {
     }
 
     public String euSouumNinja(){
+        return "Oi, eu sou um ninja!";
+    }
 
+    public int anosParaSeTornarHokage(int idadeMinHokage){
+        return idadeMinHokage - Idade;
     }
 
     void detalhesNinjas(){

@@ -3,10 +3,12 @@ package NivelIntermediário;
 public class Main {
     public static void main(String[] args) {
 
-        Ninja Sasuke = new Ninja();
+
+        Uchiha Sasuke = new Uchiha();
         Sasuke.Nome = "Sasuke Uchiha";
-        Sasuke.Idade = 19;
+        Sasuke.Idade = 29;
         Sasuke.Aldeia = "Aldeia da Folha";
+        Sasuke.SharinganAtivado();
 
         Ninja Naruto = new Ninja();
         Naruto.Nome = "Naruto Uzumaki";

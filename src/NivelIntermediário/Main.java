@@ -10,15 +10,17 @@ public class Main {
         Sasuke.Aldeia = "Aldeia da Folha";
         Sasuke.SharinganAtivado();
 
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.Nome = "Naruto Uzumaki";
         Naruto.Idade = 19;
-        Naruto.Aldeia= "Aldeia da Folha";
+        Naruto.Aldeia = "Aldeia da Folha";
+        Naruto.ModoSabioAtivado();
 
-        Ninja Sakura = new Ninja();
+        Haruno Sakura = new Haruno();
         Sakura.Nome = "Sakura Haruno";
         Sakura.Idade = 19;
         Sakura.Aldeia = "Aldeia da Folha";
+        Sakura.ativarCura();
 
         Ninja Tsunade = new Ninja();
         Tsunade.Nome = "Tsunade Peituda";
